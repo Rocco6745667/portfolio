@@ -1,5 +1,4 @@
-// This script can be used for future enhancements and interactivity.
-// Currently, it includes an alert for the contact form submission.
+//alert for the contact form submission.
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.querySelector(".contact-form form");

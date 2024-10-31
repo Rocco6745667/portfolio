@@ -91,3 +91,7 @@ main {
   line-height: 1.8;
   margin-bottom: 20px;
 }
+
+.date {
+  font-style: italic;
+}
