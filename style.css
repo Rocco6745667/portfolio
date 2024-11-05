@@ -36,12 +36,14 @@ main {
 
 .intro,
 .projects,
+.expereince,
 .skills,
 .contact-form {
   margin-top: 20px;
 }
 
 .projects .project,
+.expereince,
 .skills ul {
   margin-bottom: 10px;
 }
