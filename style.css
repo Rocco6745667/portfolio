@@ -84,7 +84,8 @@ nav a {
 main {
   padding: 20px;
 }
-.intro {
+.intro,
+.expereince {
   margin-top: 30px;
   line-height: 1.6;
 }
