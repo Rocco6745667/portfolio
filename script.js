@@ -50,37 +50,3 @@ app.listen(port, () => {
     Contact page: http://localhost:${port}/contact
   `);
 });
-
-// Form submission handler
-document.addEventListener("DOMContentLoaded", () => {
-  const form = document.querySelector(".contact-form form");
-  if (form) {
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-
-      const formData = new FormData(form);
-      const data = {
-        name: formData.get("name"),
-        email: formData.get("email"),
-        message: formData.get("message"),
-      };
-
-      try {
-        const response = await fetch("http://localhost:3000/contact", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(data),
-        });
-
-        const result = await response.json();
-        alert("Thank you for reaching out! I'll get back to you soon.");
-        form.reset();
-      } catch (error) {
-        console.error("Error:", error);
-        alert("There was an error sending your message. Please try again.");
-      }
-    });
-  }
-});
