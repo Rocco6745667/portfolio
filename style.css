@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.intro,
+.projects,
+.expereince,
+.skills,
+.contact-form {
+  margin-top: 20px;
+}
+
+.projects .project,
+.expereince,
+.skills ul {
+  margin-bottom: 10px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+header {
+  padding: 20px;
+}
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+main {
+  padding: 20px;
+}
+.intro,
+.expereince {
+  margin-top: 30px;
+  line-height: 1.6;
+}
+.intro p {
+  text-indent: 20px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-style: italic;
+}
